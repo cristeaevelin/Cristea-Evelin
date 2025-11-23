@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "slug": "vagabundos-place",
+    "title": "Vagabundos Place",
+    "description": "Content, Web Design & Development",
+    "link": "https://www.vagabundos.place",
+    "fonts": "Yatra, Garmond, Montserrat",
+    "colors": "#DC0B28, #B7BCA9, #959595",
+    "technologies": "React, Tailwindcss, Framer-motion, GSAP"
+  },
+  {
+    "id": 2,
+    "slug": "fiuzer",
+    "title": "Fiuzer",
+    "description": "Web Development",
+    "link": "https://www.fiuzer.com",
+    "fonts": "Poppins, Inter, DM Sans",
+    "colors": "#D37300, #F7941D, #262262",
+    "technologies": "React, Tailwindcss, Framer-motion"
+  },
+  {
+    "id": 3,
+    "slug": "etichete-creative",
+    "title": "Etichete Creative",
+    "description": "Web Design & Development",
+    "link": "https://etichete-creative.vercel.app",
+    "fonts": "Impact, Satoshi, Mecarons",
+    "colors": "#4FA1D8, #EE2A60, #FDD00A",
+    "technologies": "React, Framer Motion, Tailwindcss, Stripe, Express"
+  },
+  {
+    "id": 4,
+    "slug": "lady-carnivore",
+    "title": "Lady Carnivore",
+    "description": "Web Design & Development",
+    "link": "https://ancestral.living",
+    "fonts": "Figtree, Mango, Viroze",
+    "colors": "#FEA1A2, #FEE3E5, #EC003F, #C60035",
+    "technologies": "React, Tailwindcss, Framer Motion, Stripe, Node"
+  }
+]

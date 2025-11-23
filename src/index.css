@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  width: 100%;
+}
+
+.cursor-ignore {
+  pointer-events: auto;
+}
+
+@theme {
+        --font-daydream: "Daydream";
+        --font-comic: "GradientComic";
+        --font-dope: "Dope";
+        --font-circular: "Circular";
+        --font-grafiti: "Graffiti";
+        --font-druk: "Druk";
+        --font-georama: "Georama";
+        --font-key: "Key"
+      }
+
+@font-face {
+        font-family: 'Daydream';
+        src: url('/assets/fonts/Daydream.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Key';
+        src: url('/assets/fonts/Key.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Georama';
+        src: url('/assets/fonts/Georama.ttf') format('truetype');
+        font-weight: 100 900;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Druk';
+        src: url('/assets/fonts/Druk-Bold-Trial.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Graffiti';
+        src: url('/assets/fonts/Graffiti.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      
+@font-face {
+        font-family: 'GradientComic';
+        src: url('/assets/fonts/GradientComic-ExtraLight.otf') format('opentype');
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+@font-face {
+        font-family: 'Dope';
+        src: url('/assets/fonts/DopeDisplay.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+  
+      @font-face {
+        font-family: 'Circular';
+        src: url('/assets/fonts/circular.ttf') format('truetype');
+        font-weight: 200;
+        font-style: normal;
+      }
+      .perspective {
+        perspective: 1000px;
+      }
+    
+      .perspective-1000 {
+        perspective: 1000px;
+      }  
+      
+      .transform-style-preserve-3d {
+        transform-style: preserve-3d;
+      }
+      
+      .rotate-y-180 {
+        transform: rotateY(180deg);
+      }
+      
+      .backface-hidden {
+        backface-visibility: hidden;
+      }

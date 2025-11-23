@@ -1,0 +1,223 @@
+[
+        {
+          "slug": "vagabundos-place",
+          "images": [
+            {
+              "src": "/assets/projects_img/vagabundos/intro.png",
+              "title": "Hero Intro",
+              "description": "Landing section introducing the Vagabundos experience."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/about1.png",
+              "title": "About Section — Part I",
+              "description": "Brand story introduction with signature color palette."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/about2.png",
+              "title": "About Section — Part II",
+              "description": "Continuation of the concept, focusing on the bold visuals."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/menu.png",
+              "title": "Menu Overview",
+              "description": "A playful and bold menu interface showing signature dishes."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/menu1.png",
+              "title": "Menu Category",
+              "description": "Detailed look at the different sections of the menu."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/menu2.png",
+              "title": "Menu Grid Layout",
+              "description": "Clean and structured view of product items."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/menu3.png",
+              "title": "Menu Item Spotlight",
+              "description": "Highlighted product item with enhanced styling."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/menu.png",
+              "title": "Menu Recap",
+              "description": "Another perspective of the main Vagabundos menu."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/foodtruck.png",
+              "title": "Food Truck Page",
+              "description": "Dedicated section presenting the Vagabundos food truck."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/foodtruck1.png",
+              "title": "Food Truck Highlights",
+              "description": "Details about the mobility and catering experience."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/events.png",
+              "title": "Events Page",
+              "description": "Showcasing recurring events and special experiences."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/book.png",
+              "title": "Booking Section",
+              "description": "Area where users can book a table or private event."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/reviews.png",
+              "title": "Reviews",
+              "description": "Customer feedback page with brand-themed layout."
+            },
+            {
+              "src": "/assets/projects_img/vagabundos/footer.png",
+              "title": "Footer",
+              "description": "Bottom section with social links and brand elements."
+            }
+          ]
+        },
+        {
+          "slug": "fiuzer",
+          "images": [
+            {
+              "src": "/assets/projects_img/fiuzer/home1.png",
+              "title": "Landing Page — Part I",
+              "description": "Hero section introducing Fiuzer’s brand identity."
+            },
+            {
+              "src": "/assets/projects_img/fiuzer/home2.png",
+              "title": "Landing Page — Part II",
+              "description": "Continuing the homepage presentation with smoother visuals."
+            },
+            {
+              "src": "/assets/projects_img/fiuzer/home3.png",
+              "title": "Landing Page — Final",
+              "description": "Performance preview of Fiuzer's influencer integrations."
+            },
+            {
+              "src": "/assets/projects_img/fiuzer/demo.png",
+              "title": "Platform Demo",
+              "description": "Product demo showcasing the Fiuzer workflow."
+            },
+            {
+              "src": "/assets/projects_img/fiuzer/about1.png",
+              "title": "About Section",
+              "description": "Company mission, goal, and brand concept introduction."
+            },
+            {
+              "src": "/assets/projects_img/fiuzer/about2.png",
+              "title": "About — Team Focus",
+              "description": "Expanding the brand’s story through visuals."
+            },
+            {
+              "src": "/assets/projects_img/fiuzer/team.png",
+              "title": "Team Page",
+              "description": "Dedicated area introducing core team members."
+            },
+            {
+              "src": "/assets/projects_img/fiuzer/pricing.png",
+              "title": "Pricing Plans",
+              "description": "Subscription tiers for creators and businesses."
+            },
+            {
+              "src": "/assets/projects_img/fiuzer/contact.png",
+              "title": "Contact Page",
+              "description": "Simple and clean contact form for onboarding leads."
+            },
+            {
+              "src": "/assets/projects_img/fiuzer/Footer.png",
+              "title": "Footer",
+              "description": "Closing section with relevant company information."
+            }
+          ]
+        },
+        {
+          "slug": "etichete-creative",
+          "images": [
+            {
+              "src": "/assets/projects_img/etichete/home1.png",
+              "title": "Home — Hero",
+              "description": "Clean and energetic landing highlighting brand identity."
+            },
+            {
+              "src": "/assets/projects_img/etichete/sticker.png",
+              "title": "Stickers Page",
+              "description": "Dedicated area showcasing sticker collections."
+            },
+            {
+              "src": "/assets/projects_img/etichete/etichete.png",
+              "title": "Labels Page",
+              "description": "Custom label configurator introduction."
+            },
+            {
+              "src": "/assets/projects_img/etichete/recentwork.png",
+              "title": "Recent Work Section",
+              "description": "Gallery of latest client projects and sticker sets."
+            },
+            {
+              "src": "/assets/projects_img/etichete/footer.png",
+              "title": "Footer",
+              "description": "A colorful footer matching the brand’s gradient palette."
+            },
+            {
+              "src": "/assets/projects_img/etichete/galerie.png",
+              "title": "Gallery",
+              "description": "Display of multiple sticker previews and mockups."
+            },
+            {
+              "src": "/assets/projects_img/etichete/configurator.png",
+              "title": "Configurator",
+              "description": "Dynamic sticker configurator with price calculation."
+            },
+            {
+              "src": "/assets/projects_img/etichete/checkout1.png",
+              "title": "Checkout — Step 1",
+              "description": "User-friendly checkout with cost breakdown."
+            },
+            {
+              "src": "/assets/projects_img/etichete/checkout2.png",
+              "title": "Checkout — Step 2",
+              "description": "Final confirmation and order summary."
+            },
+            {
+              "src": "/assets/projects_img/etichete/login.png",
+              "title": "Login Page",
+              "description": "Authentication system with JWT and sessions."
+            },
+            {
+              "src": "/assets/projects_img/etichete/contact.png",
+              "title": "Contact Page",
+              "description": "Form section for customer inquiries and support."
+            }
+          ]
+        },
+        {
+          "slug": "lady-carnivore",
+          "images": [
+            {
+              "src": "/assets/projects_img/ladycarnivore/home.png",
+              "title": "Home Page",
+              "description": "A soft and elegant hero section for Lady Carnivore."
+            },
+            {
+              "src": "/assets/projects_img/ladycarnivore/order.png",
+              "title": "Order Flow",
+              "description": "Product purchase interface and subscription options."
+            },
+            {
+              "src": "/assets/projects_img/ladycarnivore/profil.png",
+              "title": "User Profile",
+              "description": "Personalized user dashboard with nutrition tracking."
+            },
+            {
+              "src": "/assets/projects_img/ladycarnivore/calculator.png",
+              "title": "Calorie Calculator",
+              "description": "Interactive tool for daily macronutrient estimation."
+            },
+            {
+              "src": "/assets/projects_img/ladycarnivore/program.png",
+              "title": "30-Day Program",
+              "description": "PDF-based program guiding users through the lifestyle."
+            }
+          ]
+        }
+      ]
+      
