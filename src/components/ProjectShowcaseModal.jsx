@@ -108,6 +108,9 @@ export default function ProjectShowcaseModal({ project, onClose }) {
               {/* BIG IMAGE */}
               <div className="flex items-center justify-center rounded-xl bg-black/20 overflow-hidden h-[35%]">
     <motion.img
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
       key={activeImage}
       src={activeImage}
       alt={project.title}
@@ -156,6 +159,7 @@ export default function ProjectShowcaseModal({ project, onClose }) {
                             }`}
                         >
                           <img
+                            loading="lazy"
                             src={img.src}
                             alt={img.title}
                             className="w-full h-full object-cover"
