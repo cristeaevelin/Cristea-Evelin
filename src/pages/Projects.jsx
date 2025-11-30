@@ -1,5 +1,7 @@
+// Projects.jsx
 import { useState } from "react";
 import { Canvas } from "@react-three/fiber";
+import { useInView } from "react-intersection-observer";
 import { Card, CardContent } from "../components/Card";
 import { Button } from "../components/Button";
 import { projects } from "../data/loadProjects";
@@ -7,35 +9,44 @@ import { motion, AnimatePresence } from "framer-motion";
 import WavePlane from "../components/WavePlane";
 import Particles from "../components/Particles";
 import ProjectShowcaseModal from "../components/ProjectShowcaseModal";
-import TargetCursor from '../components/TargetCursor';
-
+import TargetCursor from "../components/TargetCursor";
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
 
+  const { ref: canvasRef, inView } = useInView({
+    threshold: 0.1,
+  });
+
   return (
-    <section id="projects" className="relative h-screen flex flex-col justify-center items-center border-b bg-[#1f1d1c]">
+    <section
+      id="projects"
+      className="relative h-screen flex flex-col justify-center items-center border-b bg-[#1f1d1c]"
+    >
       <div className="z-40 items-center justify-center w-full pointer-events-none">
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
           particleCount={200}
           particleSpread={10}
           speed={0.1}
-          particleBaseSize={100}
+          particleBaseSize={100}     
           moveParticlesOnHover={true}
           alphaParticles={false}
           disableRotation={true}
         />
       </div>
-      <h2 className="text-[260px] absolute z-40 top-0 font-bold text-white/40 font-dope tracking-3">
+
+      <h2 className="text-[18vh] absolute z-40 top-0 font-bold text-white/40 font-dope tracking-3">
         Projects
       </h2>
+
       <div className="mx-8 absolute z-40">
-        <TargetCursor 
-        spinDuration={3}
-        hideDefaultCursor={true}
-        modalOpen={!!selectedProject}
-      />
+        <TargetCursor
+          spinDuration={3}
+          hideDefaultCursor={true}
+          modalOpen={!!selectedProject}
+        />
+
         <div className="grid md:grid-cols-4 gap-8">
           {projects.map((project) => (
             <motion.div
@@ -58,7 +69,6 @@ export default function Projects() {
                     >
                       Showcase
                     </Button>
-                    {/* <button onClick={() => setSelectedProject(project)}>Showcase</button> */}
                   </div>
                 </CardContent>
               </Card>
@@ -67,7 +77,6 @@ export default function Projects() {
         </div>
       </div>
 
-      {/* Modal – morph + content */}
       <AnimatePresence>
         {selectedProject && (
           <ProjectShowcaseModal
@@ -77,19 +86,25 @@ export default function Projects() {
         )}
       </AnimatePresence>
 
-      <Canvas
-      className="z-20 h-1/2 w-full pointer-events-none" 
-        camera={{ fov: 60, position: [0, 0, 5], far: 20, near: 0.001 }}
-        gl={{
-          alpha: false,
-          antialias: false,
-        }}
-        onCreated={({ gl }) => {
-          gl.setClearColor('#1f1d1c', 0); 
-        }}
+      <div
+        ref={canvasRef}
+        className="absolute bottom-0 w-full h-1/2 pointer-events-none z-20"
       >
-        <WavePlane />
-      </Canvas>
+        <Canvas
+          className="z-20 h-full w-full pointer-events-none"
+          camera={{ fov: 60, position: [0, 0, 5], far: 20, near: 0.001 }}
+          gl={{
+            alpha: false,
+            antialias: false,
+            powerPreference: "high-performance",
+          }}
+          onCreated={({ gl }) => {
+            gl.setClearColor("#1f1d1c", 0);
+          }}
+        >
+          <WavePlane inView={inView} />
+        </Canvas>
+      </div>
     </section>
   );
 }

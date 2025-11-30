@@ -168,7 +168,7 @@ tl.to(
         transform: "translateX(-50%)",
       }}
     >
-      <h1 className="text-white/40 font-bold text-[260px] font-dope tracking-[2px]">
+      <h1 className="text-white/40 font-bold text-[18vh] font-dope tracking-[2px]">
         Services
       </h1>
     </div>

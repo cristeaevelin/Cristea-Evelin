@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
+import Lazy3D from "../components/Lazy3D";
 import Scene from "../components/Scene";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -49,7 +50,9 @@ export default function Home() {
 
   return (
     <div className="h-screen relative">
+      <Lazy3D>
          <Scene />
+         </Lazy3D>
       <div className="relative top-0 h-screen w-full flex justify-center pt-8 px-4 bg-[#1f1d1c]">
         <div className="absolute inset-0 bg-indigo-500 rounded-full opacity-40 blur-[120px]"></div>
 

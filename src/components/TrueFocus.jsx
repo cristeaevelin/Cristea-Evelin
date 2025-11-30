@@ -57,7 +57,7 @@ const TrueFocus = ({
 
   return (
     <div
-      className="relative flex gap-8 font-dope font-bold text-[240px] justify-start items-start flex-wrap"
+      className="relative flex gap-8 font-dope font-bold text-[18vh] justify-start items-start flex-wrap"
       ref={containerRef}
     >
       {words.map((word, index) => {
@@ -119,14 +119,14 @@ const TrueFocus = ({
           }}
         ></span>
         <span
-          className="absolute w-4 h-4 border-[3px] rounded-[3px] bottom-[60px] left-[-10px] border-r-0 border-t-0"
+          className="absolute w-4 h-4 border-[3px] rounded-[3px] bottom-[40px] left-[-10px] border-r-0 border-t-0"
           style={{
             borderColor: "var(--border-color)",
             filter: "drop-shadow(0 0 4px var(--border-color))",
           }}
         ></span>
         <span
-          className="absolute w-4 h-4 border-[3px] rounded-[3px] bottom-[60px] right-[-10px] border-l-0 border-t-0"
+          className="absolute w-4 h-4 border-[3px] rounded-[3px] bottom-[40px] right-[-10px] border-l-0 border-t-0"
           style={{
             borderColor: "var(--border-color)",
             filter: "drop-shadow(0 0 4px var(--border-color))",

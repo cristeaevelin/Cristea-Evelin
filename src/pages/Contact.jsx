@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative bg-[#0d0d0f] py-32 px-6 overflow-hidden"
+      className="relative bg-[#0d0d0f] py-18 px-6 overflow-hidden"
     >
 
       <div className="absolute inset-0 z-0 pixelblast-bg">
@@ -60,8 +60,8 @@ const Contact = () => {
       </div>
 
       {/* Content */}
-      <div className="relative max-w-3xl z-10 mx-auto text-center">
-        <h3 className="text-white/70 font-bold font-dope tracking-3 text-[180px] mb-10">
+      <div className="relative max-w-3xl z-10 mx-auto text-center mb-20">
+        <h3 className="text-white/70 font-bold font-dope tracking-3 text-[18vh] mb-4">
           Get In Touch
         </h3>
 
@@ -93,7 +93,7 @@ const Contact = () => {
       name="name"
       type="text"
       required
-      className="bg-[#141418] border border-white/20 rounded-xl px-5 py-4 text-lg focus:border-[#B19EEF] focus:ring-2 focus:ring-[#B19EEF]/40 outline-none transition-all"
+      className="bg-[#141418] border border-white/20 rounded-xl px-5 py-2 text-lg focus:border-[#B19EEF] focus:ring-2 focus:ring-[#B19EEF]/40 outline-none transition-all"
     />
   </div>
 
@@ -103,7 +103,7 @@ const Contact = () => {
       name="email"
       type="email"
       required
-      className="bg-[#141418] border border-white/20 rounded-xl px-5 py-4 text-lg focus:border-[#B19EEF] focus:ring-2 focus:ring-[#B19EEF]/40 outline-none transition-all"
+      className="bg-[#141418] border border-white/20 rounded-xl px-5 py-2 text-lg focus:border-[#B19EEF] focus:ring-2 focus:ring-[#B19EEF]/40 outline-none transition-all"
     />
   </div>
 
@@ -111,15 +111,15 @@ const Contact = () => {
     <label className="mb-2 font-druk text-3xl tracking-wide">Message</label>
     <textarea
       name="message"
-      rows={4}
+      rows={2}
       required
-      className="bg-[#141418] font-druk text-2xl border border-white/20 rounded-xl px-5 py-4 focus:border-[#B19EEF] focus:ring-2 focus:ring-[#B19EEF]/40 outline-none transition-all tracking-wide resize-none"
+      className="bg-[#141418] font-druk text-2xl border border-white/20 rounded-xl px-5 py-2 focus:border-[#B19EEF] focus:ring-2 focus:ring-[#B19EEF]/40 outline-none transition-all tracking-wide resize-none"
     ></textarea>
   </div>
 
   <button
     type="submit"
-    className="relative inline-block mt-4 px-10 py-4 text-xl font-dope tracking-wider text-black bg-[#B19EEF] rounded-xl shadow-[0_0_30px_#B19EEF] hover:shadow-[0_0_50px_#B19EEF] transition-all"
+    className="relative inline-block mt-3 px-10 py-4 text-xl font-dope tracking-wider text-black bg-[#B19EEF] rounded-xl shadow-[0_0_30px_#B19EEF] hover:shadow-[0_0_50px_#B19EEF] transition-all"
   >
     SEND MESSAGE
   </button>

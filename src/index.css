@@ -11,6 +11,12 @@ html, body, #root {
   pointer-events: auto;
 }
 
+.bubble-menu-items .pill-link:hover {
+  transform: rotate(var(--item-rot)) scale(1.06);
+  background: var(--hover-bg) !important;
+  color: var(--hover-color) !important;
+}
+
 @theme {
         --font-daydream: "Daydream";
         --font-comic: "GradientComic";

@@ -53,7 +53,7 @@ const WavePlane = () => {
     () => Math.max(planeWidth, planeHeight),
     [planeWidth, planeHeight]
   );
-  const planeSegments = useMemo(() => planeSize * 8, [planeSize]);
+  const planeSegments = Math.min(128, planeSize * 4);
 
   const shaderMaterialRef = useRef();
 
