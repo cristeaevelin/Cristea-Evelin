@@ -21,8 +21,9 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative h-screen flex flex-col justify-center items-center border-b bg-[#1f1d1c]"
+      className="relative h-screen flex flex-col justify-center items-center border-b border-white/40 bg-[#1f1d1c]"
     >
+   <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/30 to-transparent blur-sm" />
       <div className="z-40 items-center justify-center w-full pointer-events-none">
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
@@ -36,7 +37,7 @@ export default function Projects() {
         />
       </div>
 
-      <h2 className="text-[18vh] absolute z-40 top-0 font-bold text-white/40 font-dope tracking-3">
+      <h2 className="text-[18vh] absolute z-40 top-0 font-bold text-white/40 font-dope tracking-2">
         Projects
       </h2>
 
@@ -55,7 +56,7 @@ export default function Projects() {
               className="cursor-target"
             >
               <Card className="hover:shadow-xl transition-shadow duration-300">
-                <CardContent className="p-2">
+                <CardContent className="p-1">
                   <h3 className="text-2xl font-dope font-semibold text-white/60 tracking-2 mb-2 text-center">
                     {project.title}
                   </h3>
@@ -88,7 +89,7 @@ export default function Projects() {
 
       <div
         ref={canvasRef}
-        className="absolute bottom-0 w-full h-1/2 pointer-events-none z-20"
+        className="absolute bottom-0 w-full h-[80%] pointer-events-none z-20"
       >
         <Canvas
           className="z-20 h-full w-full pointer-events-none"

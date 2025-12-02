@@ -181,7 +181,7 @@ tl.to(
           className="absolute w-[380px] h-52 p-4 rounded-[40px] bg-radial-custom border border-white/30"
           style={{ top: "10%", left: "10%", opacity: 0 }}
         >
-          <h2 className="text-white text-3xl font-druk">Product Ads</h2>
+          <h2 className="text-white text-3xl font-dope">Product Ads</h2>
           <p className="text-white/70 text-lg font-comic">
           Creating advertising images and concepts that highlight your product,
            whether for social media or print.
@@ -194,7 +194,7 @@ tl.to(
           className="absolute w-[380px] h-52 p-4 rounded-[40px] bg-radial-custom border border-white/30"
           style={{ top: "10%", right: "10%", opacity: 0 }}
         >
-          <h2 className="text-white text-3xl font-druk">Web Design & Development</h2>
+          <h2 className="text-white text-3xl font-dope">Web Design & Development</h2>
           <p className="text-white/70 text-lg font-comic">
           Building modern, responsive, and performance-optimized websites, 
           with a strong focus on UX/UI and visual identity.
@@ -207,7 +207,7 @@ tl.to(
           className="absolute w-[420px] h-52 p-4 rounded-[40px] bg-radial-custom border border-white/30"
           style={{ top: "70%", left: "50%", transform: "translateX(-50%)", opacity: 0 }}
         >
-          <h2 className="text-white text-3xl font-druk">Graphic Design</h2>
+          <h2 className="text-white text-3xl font-dope">Graphic Design</h2>
           <p className="text-white/70 text-lg font-comic">
           Posters, flyers, printed or digital layouts – all crafted with attention to detail and visual impact.
           </p>
@@ -219,7 +219,7 @@ tl.to(
           className="absolute w-[380px] h-52 p-4 rounded-[40px] bg-radial-custom border border-white/30"
           style={{ top: "65%", left: "10%", opacity: 0 }}
         >
-          <h2 className="text-white text-3xl font-druk">3D Advertising</h2>
+          <h2 className="text-white text-3xl font-dope">3D Advertising</h2>
           <p className="text-white/70 text-lg font-comic">
           Using Blender, we create stunning, realistic 3D graphics that turn your products into visual showstoppers.
           </p>
@@ -231,7 +231,7 @@ tl.to(
           className="absolute w-[380px] h-52 p-4 rounded-[40px] bg-radial-custom border border-white/30"
           style={{ top: "65%", right: "10%", opacity: 0 }}
         >
-          <h2 className="text-white text-3xl font-druk">Visual Identity</h2>
+          <h2 className="text-white text-3xl font-dope">Visual Identity</h2>
           <p className="text-white/70 text-lg font-comic">
           From unique logos to color palettes and brand guidelines — helping you build a brand that people remember.
           </p>
@@ -243,7 +243,7 @@ tl.to(
           className="absolute w-[420px] h-52 p-4 rounded-[40px] bg-radial-custom border border-white/30"
           style={{ top: "70%", left: "50%", transform: "translateX(-50%)", opacity: 0 }}
         >
-          <h2 className="text-white text-3xl font-druk">Creative Consultance</h2>
+          <h2 className="text-white text-3xl font-dope">Creative Consultance</h2>
           <p className="text-white/70 text-lg font-comic">
           Got an idea but don’t know where to start? 
           You will be guided step-by-step through the visual and technical development of your brand.

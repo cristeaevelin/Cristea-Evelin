@@ -21,6 +21,7 @@ export default function About() {
 
   return (
     <div className="h-screen z-50 w-screen flex flex-col items-center border-b border-white/40 justify-center bg-[#1f1d1c]">
+                  <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/40 to-transparent blur-sm" />
       <TrueFocus
         sentence="About me"
         manualMode={false}
@@ -30,7 +31,7 @@ export default function About() {
         pauseBetweenAnimations={1}
       />
 
-      <div className="space-y-10 text-2xl mx-20 text-[#F7E6DE] font-comic">
+      <div className="space-y-10 text-2xl mx-20 text-[#FFFFFFCC] font-comic">
         <p ref={pRef}>
           My journey started with a fascination for the intersection of art and
           technology. Today, I specialize in crafting immersive digital

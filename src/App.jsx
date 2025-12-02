@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -83,7 +84,7 @@ export default function App() {
     <BubbleMenu
       useFixedPosition={true}
     logo="/your-logo.png"
-    menuBg="#F6F6E2"
+    menuBg="#FFFFFFCC"
     menuContentColor="#111111"
     items={[
       { label: "home", href: "/", rotation: -8, hoverStyles: { bgColor: "#6366f1", textColor: "#fff" }},
@@ -113,6 +114,7 @@ export default function App() {
   </section>
 </main>
 
+<Footer />
     </div>
   );
 }

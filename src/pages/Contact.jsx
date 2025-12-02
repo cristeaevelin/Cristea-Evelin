@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import PixelBlast from "../components/PixelBlast";
+import Particles from "../components/Particles";
 
 const Contact = () => {
   const pixelRef = useRef(null);
@@ -33,35 +33,13 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative bg-[#0d0d0f] py-18 px-6 overflow-hidden"
+      className="relative bg-[#1f1d1c] py-18 px-6 overflow-hidden"
     >
-
-      <div className="absolute inset-0 z-0 pixelblast-bg">
-        <PixelBlast
-          ref={pixelRef}
-          variant="square"
-          pixelSize={6}
-          color="#B19EEF"
-          patternScale={3}
-          patternDensity={0.2}
-          pixelSizeJitter={0.6}
-          rippleSpeed={0.8}
-          rippleThickness={0.45}
-          rippleIntensityScale={3}
-          liquid
-          liquidStrength={0.3}
-          liquidRadius={1.3}
-          liquidWobbleSpeed={5}
-          speed={0.3}
-          edgeFade={0.25}
-          transparent
-          style={{ width: "100%", height: "100%" }}
-        />
-      </div>
+        <Particles />
 
       {/* Content */}
-      <div className="relative max-w-3xl z-10 mx-auto text-center mb-20">
-        <h3 className="text-white/70 font-bold font-dope tracking-3 text-[18vh] mb-4">
+      <div className="relative max-w-3xl z-10 mx-auto text-center mb-20 mt-20">
+        <h3 className="text-white/70 font-bold font-dope tracking-3 text-[15vh] mb-4">
           Get In Touch
         </h3>
 
@@ -87,7 +65,7 @@ const Contact = () => {
 <form className="space-y-8 text-left mt-8" onSubmit={handleSubmit}>
   <input type="hidden" name="subject" value="New Website Message" />
 
-  <div className="flex flex-col text-white">
+  <div className="flex flex-col text-[#FFFFFFCC]">
     <label className="mb-2 font-druk text-3xl tracking-wide">Name</label>
     <input
       name="name"
@@ -97,7 +75,7 @@ const Contact = () => {
     />
   </div>
 
-  <div className="flex flex-col text-white">
+  <div className="flex flex-col text-[#FFFFFFCC]">
     <label className="mb-2 font-druk text-3xl tracking-wide">Email</label>
     <input
       name="email"
@@ -107,7 +85,7 @@ const Contact = () => {
     />
   </div>
 
-  <div className="flex flex-col text-white">
+  <div className="flex flex-col text-[#FFFFFFCC]">
     <label className="mb-2 font-druk text-3xl tracking-wide">Message</label>
     <textarea
       name="message"
@@ -119,7 +97,7 @@ const Contact = () => {
 
   <button
     type="submit"
-    className="relative inline-block mt-3 px-10 py-4 text-xl font-dope tracking-wider text-black bg-[#B19EEF] rounded-xl shadow-[0_0_30px_#B19EEF] hover:shadow-[0_0_50px_#B19EEF] transition-all"
+    className="relative inline-block mt-3 px-10 py-4 text-xl font-dope tracking-wider text-[#FFFFFFCC] bg-[#B19EEF] rounded-xl shadow-[0_0_30px_#B19EEF] hover:shadow-[0_0_50px_#B19EEF] transition-all"
   >
     SEND MESSAGE
   </button>
